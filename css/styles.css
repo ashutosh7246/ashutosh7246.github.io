@@ -11752,14 +11752,12 @@ section.resume-section .resume-section-content {
   }
 }
 
-
-
-
 .list-inline-item {
   position: relative;
   margin-bottom: 10px;
   cursor: pointer;
   display: inline-flex;
+  border-radius: 5px;
 }
 .img-overlay {
   position: absolute;
@@ -11772,6 +11770,10 @@ section.resume-section .resume-section-content {
   opacity: 0;
   transition: 0.5s ease;
   background-color: rgba(189, 93, 56);
+  border-radius: 5px;
+}
+.list-inline-item img {
+  border-radius: 5px;
 }
 .list-inline-item:hover .img-overlay {
   opacity: 1;
